@@ -44,7 +44,7 @@ namespace GasYa.Web.Api.Controllers
             return CreatedAtAction(nameof(GetFuelById), new { id = fuel.Id }, fuel);
         }
 
-        // Puedes agregar acciones adicionales según sea necesario, como Update y Delete
+     
     }
 
     public class FuelCreationDto
