@@ -50,8 +50,6 @@ namespace GasYa.Web.Api.Controllers
             var gasStation = await _gasStationService.AddGasStationAsync (creationDto.Name);
             return CreatedAtAction(nameof(GetGasStationById), new { id = gasStation.Id }, gasStation);
         }
-
-        // Puedes agregar acciones adicionales según sea necesario, como Update y Delete
     }
 
     public class GasStationCreationDto
