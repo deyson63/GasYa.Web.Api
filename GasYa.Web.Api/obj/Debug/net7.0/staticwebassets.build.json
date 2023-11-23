@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vgrGv44JU+1xkhYOKIjrMdSIPth04BsgwZiwOFNFGlw=",
+  "Source": "GasYa.Web.Api",
+  "BasePath": "_content/GasYa.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
