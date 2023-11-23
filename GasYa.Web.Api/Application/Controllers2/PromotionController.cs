@@ -44,7 +44,6 @@ namespace GasYa.Web.Api.Controllers
             return CreatedAtAction(nameof(GetPromotionById), new { id = promotion.Id }, promotion);
         }
 
-        // Puedes agregar acciones adicionales según sea necesario, como Update y Delete
     }
 
     public class PromotionCreationDto
