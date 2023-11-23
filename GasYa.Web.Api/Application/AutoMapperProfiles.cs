@@ -13,6 +13,5 @@ public class AutoMapperProfiles : Profile
         CreateMap<Fuel, FuelDto>();
         CreateMap<Promotion, PromotionDto>();
         CreateMap<Inventory, InventoryDto>();
-        // Agrega más mapeos según tus necesidades
     }   
 }
