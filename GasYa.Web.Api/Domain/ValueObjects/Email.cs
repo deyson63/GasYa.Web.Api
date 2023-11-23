@@ -11,7 +11,6 @@ public class Email
             throw new ArgumentException("El valor del correo electrónico no puede estar vacío.", nameof(value));
         }
 
-        // Puedes agregar lógica adicional de validación de correo electrónico según tus necesidades
 
         _value = value;
     }
